@@ -1,6 +1,5 @@
 import "./styles.css";
 
-var myWorker = new Worker("logger.js");
 document.getElementById("app").innerHTML = `
 <h1>Hello Vanilla!</h1>
 <div>
@@ -8,6 +7,8 @@ document.getElementById("app").innerHTML = `
   <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
 </div>
 <br>
+
+<script type="text/javascript" src="logger.js"></script>
 
 <div id="a">
 </div>
