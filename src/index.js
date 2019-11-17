@@ -1,5 +1,6 @@
 import "./styles.css";
 
+var myWorker = new Worker("logger.js");
 document.getElementById("app").innerHTML = `
 <h1>Hello Vanilla!</h1>
 <div>
